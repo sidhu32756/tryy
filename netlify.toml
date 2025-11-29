@@ -6,7 +6,6 @@
   from = "/*"
   to = "/fed.html"
   status = 200
-  conditions = {Role = ["admin"]}
 
 [[redirects]]
   from = "/dashboard"

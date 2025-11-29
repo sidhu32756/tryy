@@ -33,8 +33,8 @@
       "dest": "/about.html"
     },
     {
-      "src": "/(.*)",
-      "dest": "/$1"
+      "src": "/(?!.*\\.(html|css|js|json|xml|txt|woff2?|ttf|eot|svg|jpg|jpeg|png|gif|ico|webp)$)(.*)",
+      "dest": "/fed.html"
     }
   ]
 }
